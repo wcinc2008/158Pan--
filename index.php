@@ -5,7 +5,8 @@
  * @version 1.0.0
  * @link https://mlooc.cn
  */
-
+// 指定允许其他域名访问  
+header('Access-Control-Allow-Origin:*');
 	function object_array($array) {  
 	    if(is_object($array)) {  
 	        $array = (array)$array;  
